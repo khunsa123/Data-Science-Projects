@@ -73,11 +73,17 @@ Two datasets were used in this project:
 ---
 
 ## 📂 Project Structure
+
 Air-Pollution-Analysis/
+
 │── Air Pollution Data Analysis.py
+
 │── PollutionData190100.csv
+
 │── PollutionData209960.csv
+
 │── README.md
+
 
 ---
 
