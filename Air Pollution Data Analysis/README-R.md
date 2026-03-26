@@ -59,36 +59,41 @@ This project focuses on **time-series analysis and forecasting of air pollution 
 ---
 
 ## 🧰 Tools & Libraries
-•	Language: R 
-•	Environment: RStudio 
-•	Libraries: 
-o	forecast 
-o	tseries 
+
+- **Language:** R
+- **Environment:** RStudio
+- **Libraries:** 
+  - forecast  
+  - tseries  
 
 ---
 
 ## 🚀 How to Run
-1.	Open RStudio 
-2.	Set working directory to project folder 
-3.	Install required packages: 
-install.packages("forecast")
-install.packages("tseries")
-4.	Run scripts: 
-source("TimeSeriesTR.R")
-source("TimeSeriesTS.R")
+
+1. Open RStudio
+2. Set working directory to project folder
+3. Install required packages: 
+  - install.packages("forecast") 
+  - install.packages("tseries") 
+4. Run scripts: 
+  - source("TimeSeriesTR.R") 
+  - source("TimeSeriesTS.R")   
 
 ---
 
 ## 📈 Key Outcomes
-•	Successfully modeled pollution data using ARIMA 
-•	Identified temporal dependencies in particulate matter levels 
-•	Generated short-term forecasts for air quality trends 
-•	Validated model performance using statistical tests 
+
+- Successfully modeled pollution data using ARIMA 
+- Identified temporal dependencies in particulate matter levels
+- Generated short-term forecasts for air quality trends
+- Validated model performance using statistical tests
 
 ---
 
 ## ⚠️ Notes
-•	Update file paths in .R scripts according to your system 
-•	Results may vary depending on dataset size and preprocessing 
+
+- Update file paths in .R scripts according to your system 
+- Results may vary depending on dataset size and preprocessing
+
 ________________________________________
 💡 This project demonstrates the application of time-series modeling in environmental data analysis and forecasting.
