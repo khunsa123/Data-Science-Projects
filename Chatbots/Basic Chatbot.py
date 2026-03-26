@@ -1,9 +1,11 @@
-Build a simple Chatbot using NLTK Library in Python
-Links for Chatbot Code Examples
-1.	https://www.digitalocean.com/community/tutorials/how-to-create-an-intelligent-chatbot-in-python-using-the-spacy-nlp-library
-2.	https://www.edureka.co/blog/how-to-make-a-chatbot-in-python/
-3.	https://www.analyticsvidhya.com/blog/2021/07/build-a-simple-chatbot-using-python-and-nltk/
-Method 1
+#Build a simple Chatbot using NLTK Library in Python
+
+#Links for Chatbot Code Examples
+#1.	https://www.digitalocean.com/community/tutorials/how-to-create-an-intelligent-chatbot-in-python-using-the-spacy-nlp-library
+#2.	https://www.edureka.co/blog/how-to-make-a-chatbot-in-python/
+#3.	https://www.analyticsvidhya.com/blog/2021/07/build-a-simple-chatbot-using-python-and-nltk/
+
+#Method 1
 pip install tkinter
 
 
@@ -33,7 +35,7 @@ send = Button(root, text="Send", command=send).grid(row=1, column=1)
 root.mainloop()
 
 
-Method 2
+#Method 2
 pip install nltk
 
 import nltk
@@ -147,6 +149,7 @@ def chat():
     print("Hi! I am a chatbot created by KHUNSA for your service")
     chat = Chat(pairs, reflections)
     chat.converse()
+
 #initiate the conversation
 if __name__ == "__main__":
     chat()
